@@ -1,0 +1,36 @@
+
+Scenario Outline: test end to end testing login # SoftTech/facebook.feature:11
+  Given open fb application                     # StepDefination.abc.open_fb_application()
+  When enter valid "pune1"                      # StepDefination.abc.enter_valid(java.lang.String)
+  And entr pass "mumbai1"                       # StepDefination.abc.entr_pass(java.lang.String)
+  Then homepage fb                              # StepDefination.abc.homepage_fb()
+
+Scenario Outline: test end to end testing login # SoftTech/facebook.feature:12
+  Given open fb application                     # StepDefination.abc.open_fb_application()
+  When enter valid "pune2"                      # StepDefination.abc.enter_valid(java.lang.String)
+  And entr pass "mumbai2"                       # StepDefination.abc.entr_pass(java.lang.String)
+  Then homepage fb                              # StepDefination.abc.homepage_fb()
+
+Scenario Outline: test end to end testing login # SoftTech/facebook.feature:16
+  Given open fb application                     # StepDefination.abc.open_fb_application()
+  When enter valid "Delhi1"                     # StepDefination.abc.enter_valid(java.lang.String)
+  And entr pass "mumbai1"                       # StepDefination.abc.entr_pass(java.lang.String)
+  Then homepage fb                              # StepDefination.abc.homepage_fb()
+
+Scenario Outline: test end to end testing login # SoftTech/facebook.feature:17
+  Given open fb application                     # StepDefination.abc.open_fb_application()
+  When enter valid "Delhi2"                     # StepDefination.abc.enter_valid(java.lang.String)
+  And entr pass "mumbai2"                       # StepDefination.abc.entr_pass(java.lang.String)
+  Then homepage fb                              # StepDefination.abc.homepage_fb()
+
+Scenario Outline: test end to end testing login # SoftTech/facebook.feature:21
+  Given open fb application                     # StepDefination.abc.open_fb_application()
+  When enter valid "<username>"                 # StepDefination.abc.enter_valid(java.lang.String)
+  And entr pass "<password>"                    # StepDefination.abc.entr_pass(java.lang.String)
+  Then homepage fb                              # StepDefination.abc.homepage_fb()
+
+Scenario Outline: test end to end testing login # SoftTech/facebook.feature:22
+  Given open fb application                     # StepDefination.abc.open_fb_application()
+  When enter valid "<username>"                 # StepDefination.abc.enter_valid(java.lang.String)
+  And entr pass "<password>"                    # StepDefination.abc.entr_pass(java.lang.String)
+  Then homepage fb                              # StepDefination.abc.homepage_fb()

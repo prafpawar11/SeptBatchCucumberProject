@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="48.894">
+    <testcase classname="test facebook application" name="test end to end testing login" time="10.191">
+        <system-out><![CDATA[Given open fb application...................................................passed
+When enter valid "pune1"....................................................passed
+And entr pass "mumbai1".....................................................passed
+Then homepage fb............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test facebook application" name="test end to end testing login 2" time="7.696">
+        <system-out><![CDATA[Given open fb application...................................................passed
+When enter valid "pune2"....................................................passed
+And entr pass "mumbai2".....................................................passed
+Then homepage fb............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test facebook application" name="test end to end testing login 3" time="7.49">
+        <system-out><![CDATA[Given open fb application...................................................passed
+When enter valid "Delhi1"...................................................passed
+And entr pass "mumbai1".....................................................passed
+Then homepage fb............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test facebook application" name="test end to end testing login 4" time="7.565">
+        <system-out><![CDATA[Given open fb application...................................................passed
+When enter valid "Delhi2"...................................................passed
+And entr pass "mumbai2".....................................................passed
+Then homepage fb............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test facebook application" name="test end to end testing login 5" time="7.53">
+        <system-out><![CDATA[Given open fb application...................................................passed
+When enter valid "<username>"...............................................passed
+And entr pass "<password>"..................................................passed
+Then homepage fb............................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="test facebook application" name="test end to end testing login 6" time="7.87">
+        <system-out><![CDATA[Given open fb application...................................................passed
+When enter valid "<username>"...............................................passed
+And entr pass "<password>"..................................................passed
+Then homepage fb............................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
